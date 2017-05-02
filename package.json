@@ -1,0 +1,37 @@
+{
+  "name": "bragg-cors",
+  "version": "0.0.0",
+  "description": "CORS middleware for bragg",
+  "license": "MIT",
+  "repository": "SamVerschueren/bragg-cors",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bragg",
+    "middleware",
+    "cors",
+    "cross",
+    "origin",
+    "resource",
+    "sharing",
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
